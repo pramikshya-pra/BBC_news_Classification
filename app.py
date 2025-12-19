@@ -19,3 +19,5 @@ if st.button("Submit"):
     result = model.predict(df['news'])[0]
     st.dataframe(df)
     st.write(result)
+
+
